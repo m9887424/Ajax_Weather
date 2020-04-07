@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>全台氣象觀測站</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous" />
+</head>
+
+<body>
+    <div class="wrap">
+        <header>
+
+        </header>
+        <div id="popular">
+            <div class="section-title">
+                <h4>台灣高海拔氣象觀測站</h4>
+            </div>
+            <div class="hot-zone">
+                <div class="item-zone">
+                    <div class="image image-1"></div>
+                    <button class="btn btn-1" value="竹子湖">竹子湖</button>
+                </div>
+                <div class="item-zone">
+                    <div class="image image-2"></div>
+                    <button class="btn btn-2" value="太魯閣">太魯閣</button>
+                </div>
+                <div class="item-zone">
+                    <div class="image image-3"></div>
+                    <button class="btn btn-3" value="拉拉山">拉拉山</button>
+                </div>
+                <div class="item-zone">
+                    <div class="image image-4"></div>
+                    <button class="btn btn-4" value="玉山">玉山</button>
+                </div>
+                <div class="item-zone">
+                    <div class="image image-5"></div>
+                    <button class="btn btn-5" value="阿里山">阿里山</button>
+                </div>
+                <div class="item-zone">
+                    <div class="image image-6"></div>
+                    <button class="btn btn-6" value="合歡山">合歡山</button>
+                </div>
+            </div>
+        </div>
+        <div id="explore">
+            <div class="selected-bar">
+                <select name="zone" id="zone">
+              <option selected disabled>-- 請選擇氣象站 --</option>
+                </select>
+            </div>
+            <div class="container">
+                <h2 class="zone-name"></h2>
+                <ul class="info">
+                    <div class="loader">Loading...</div>
+                </ul>
+            </div>
+        </div>
+        <footer>
+            <p class="copyright">Copyright© Central Weather Bureau. All Rights Reserved.</p>
+            <p>資料來源：交通部中央氣象局</p>
+        </footer>
+        <div id="goTop" title="Go Top">
+            <a href="javascript:;" class="btn"><i class="fas fa-angle-double-up"></i></a>
+        </div>
+    </div>
+
+    <div class="modal-el hide">
+        <div class="modal">
+        </div>
+    </div>
+
+    <script src=" https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js "></script>
+    <script src="/js/javascript.js "></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBBwzNiyCp8ZC3Ryh-fq3Xqk1n6a-JifPA" async defer></script>
+
+</body>
+
+</html>
