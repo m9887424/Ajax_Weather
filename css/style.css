@@ -21,7 +21,7 @@ header {
     width: 100%;
     height: 360px;
     margin: 0 auto;
-    background-image: url(/img/header-bg.jpg);
+    background-image: url(../img/header-bg.jpg);
     background-size: cover;
     background-position: center center;
 }
@@ -106,27 +106,27 @@ header {
 }
 
 #popular .hot-zone .item-zone .image-1 {
-    background-image: url(/img/hot-zone-img-1.jpg);
+    background-image: url(../img/hot-zone-img-1.jpg);
 }
 
 #popular .hot-zone .item-zone .image-2 {
-    background-image: url(/img/hot-zone-img-2.jpg);
+    background-image: url(../img/hot-zone-img-2.jpg);
 }
 
 #popular .hot-zone .item-zone .image-3 {
-    background-image: url(/img/hot-zone-img-3.jpg);
+    background-image: url(../img/hot-zone-img-3.jpg);
 }
 
 #popular .hot-zone .item-zone .image-4 {
-    background-image: url(/img/hot-zone-img-4.jpg);
+    background-image: url(../img/hot-zone-img-4.jpg);
 }
 
 #popular .hot-zone .item-zone .image-5 {
-    background-image: url(/img/hot-zone-img-5.jpg);
+    background-image: url(../img/hot-zone-img-5.jpg);
 }
 
 #popular .hot-zone .item-zone .image-6 {
-    background-image: url(/img/hot-zone-img-6.jpg);
+    background-image: url(../img/hot-zone-img-6.jpg);
 }
 
 @media screen and (max-width: 768px) {
